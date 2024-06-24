@@ -29,6 +29,24 @@ class ElectricCar extends Car{
     Battery_size ;
 }
 
+class Account {
+    #Balance;
 
+    
 
+    setBalance( codBalance){
+   this.#Balance=codBalance
+  
+    }
 
+    #getBalance(){
+     return this.#Balance
+    }
+
+    printBalance(){
+console.log(this.#getBalance)
+    }
+
+}
+
+let acc = new Account(5252)
